@@ -7,239 +7,241 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="index.js"></script>
   </head>
-  <body class="bg-gray-50 text-gray-800">
-        <header class="w-full shadow-md sticky top-0 bg-white z-50">
+  <body>
+    <header class="w-full shadow-md sticky top-0 bg-white z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex-shrink-0">
+          <a class="font-semibold text-3xl" href="/">Furnino</a>
+        </div>
+        <nav class="hidden lg:flex space-x-8 font-medium text-gray-700">
+          <a href="#" class="hover:underline">Trang chủ</a>
+          <a href="/product.html" class="hover:underline">Sản Phẩm</a>
+          <a href="#" class="hover:underline">Giới thiệu</a>
+          <a href="#" class="hover:underline">Liên hệ</a>
+        </nav>
+        <div class="flex items-center space-x-6">
+          <form
+            class="hidden lg:flex border rounded-full overflow-hidden focus-within:ring-2 focus-within:ring-[#F9F1E7]">
+            <input
+              type="text"
+              placeholder="Tìm kiếm..."
+              class="px-4 py-2 w-48 outline-none" />
+            <button class="px-3 text-black">
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </button>
+          </form>
+          <button class="p-2 hover:bg-gray-100 rounded-full">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.293 2.293A1 1 0 007 17h10m0 0a1 1 0 100 2 1 1 0 000-2z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Slider -->
+      <section class="w-full overflow-hidden">
+        <img src="/img/img1.png" alt="" class="w-full object-cover" />
+      </section>
+      <!-- Danh mục  -->
+      <section class="py-10 flex flex-col gap-10 px-2">
+        <div
+          class="flex flex-col gap-6 items-center justify-center text-center sm:px-5">
+          <h1 class="font-semibold text-3xl sm:text-5xl">Categori</h1>
+          <p>
+            Nội thất đẹp sẽ làm căn phòng của bản trở nên đẹp đẽ và sang trọng .
+            Ai nhìn vào cũng thấy đẹp
+          </p>
+          <a href="/product.html">
+            <button class="border-2 px-4 py-1 sm:px-8 sm:py-3 border-gray-500">
+              Toàn Bộ Shop
+            </button></a
+          >
+        </div>
+        <div
+          class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           <div
-            class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-            <div class="flex-shrink-0">
-              <a href="/">
-                <img
-                  src=""
-                  alt=""
-                  class="w-28" />
-              </a>
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img2.png" class="object-cover" alt="" />
             </div>
-            <nav class="hidden lg:flex space-x-8 font-medium text-gray-700">
-              <a href="#" class="hover:text-blue-600">Trang chủ</a>
-              <a href="#" class="hover:text-blue-600">Sản Phẩm</a>
-              <a href="#" class="hover:text-blue-600">Giới thiệu</a>
-              <a href="#" class="hover:text-blue-600">Liên hệ</a>
-            </nav>
-            <div class="flex items-center space-x-6">
-              <form
-                class="hidden lg:flex border rounded-full overflow-hidden focus-within:ring-2 focus-within:ring-blue-500">
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm..."
-                  class="px-4 py-2 w-40 outline-none" />
-                <button class="px-3 bg-blue-500 text-white">
-                  <svg
-                    class="w-5 h-5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                  </svg>
-                </button>
-              </form>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
+              </div>
               <button
-                class="p-2 hover:bg-gray-100 rounded-full">
-                <svg
-                  class="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.293 2.293A1 1 0 007 17h10m0 0a1 1 0 100 2 1 1 0 000-2z" />
-                </svg>
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
               </button>
+            </div>
+          </div>
+          <div
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img4.png" class="object-cover" alt="" />
+            </div>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
+              </div>
               <button
-                id="menu-btn"
-                class="lg:hidden p-2 hover:bg-gray-100 rounded-md transition">
-                <svg
-                  class="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
               </button>
             </div>
           </div>
-        </header>
-        <main class="">
-            <section class="relative w-full h-[500px] overflow-hidden">
-          <div class="absolute inset-0 flex transition-all duration-700">
-            <img
-              src=""
-              alt=""
-              class="w-full object-cover" />
-          </div>
           <div
-            class="absolute inset-0 bg-black/40 flex items-center justify-center">
-            <h1 class="text-white text-4xl font-bold uppercase">
-              Khám phá phong cách adidas
-            </h1>
-          </div>
-        </section>
-        <section class="py-10 bg-white">
-          <div
-            class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
-            <div class="flex flex-col items-center space-y-2">
-              <i class="pe-7s-plane text-5xl text-blue-500"></i>
-              <h6 class="font-semibold">Giao hàng</h6>
-              <p class="text-gray-600">Giao hàng nhanh chóng</p>
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img3.png" class="object-cover" alt="" />
             </div>
-            <div class="flex flex-col items-center space-y-2">
-              <i class="pe-7s-help2 text-5xl text-blue-500"></i>
-              <h6 class="font-semibold">Hỗ trợ</h6>
-              <p class="text-gray-600">Hỗ trợ 24/7</p>
-            </div>
-            <div class="flex flex-col items-center space-y-2">
-              <i class="pe-7s-back text-5xl text-blue-500"></i>
-              <h6 class="font-semibold">Hoàn tiền</h6>
-              <p class="text-gray-600">Hoàn tiền trong 30 ngày</p>
-            </div>
-            <div class="flex flex-col items-center space-y-2">
-              <i class="pe-7s-credit text-5xl text-blue-500"></i>
-              <h6 class="font-semibold">Thanh toán</h6>
-              <p class="text-gray-600">Bảo mật thanh toán</p>
-            </div>
-          </div>
-        </section>
-        <section class="py-12 bg-white">
-          <div class="text-center mb-8">
-            <h2 class="text-3xl font-bold uppercase">Các sản phẩm hot</h2>
-          </div>
-          <div
-            class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            <div
-              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
-              <img
-                class="w-full h-48 object-cover"
-                alt="" />
-              <div class="p-4 text-center">
-                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
-                <div class="mt-2">
-                  <span class="text-blue-600 font-bold">1.200.000đ</span>
-                  <span class="text-gray-400 line-through ml-2"
-                    >1.500.000đ</span
-                  >
-                </div>
-                <button
-                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                  Xem chi tiết
-                </button>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
               </div>
-            </div>
-               <div
-              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
-              <img
-                class="w-full h-48 object-cover"
-                alt="" />
-              <div class="p-4 text-center">
-                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
-                <div class="mt-2">
-                  <span class="text-blue-600 font-bold">1.200.000đ</span>
-                  <span class="text-gray-400 line-through ml-2"
-                    >1.500.000đ</span
-                  >
-                </div>
-                <button
-                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                  Xem chi tiết
-                </button>
-              </div>
-            </div>
-            <div
-              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
-              <img
-                class="w-full h-48 object-cover"
-                alt="" />
-              <div class="p-4 text-center">
-                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
-                <div class="mt-2">
-                  <span class="text-blue-600 font-bold">1.200.000đ</span>
-                  <span class="text-gray-400 line-through ml-2"
-                    >1.500.000đ</span
-                  >
-                </div>
-                <button
-                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                  Xem chi tiết
-                </button>
-              </div>
-            </div>
-
-            <div
-              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg">
-              <img
-                class="w-full h-48 object-cover"
-                alt="" />
-              <div class="p-4 text-center">
-                <h6 class="font-semibold text-lg">Adidas Forum Low</h6>
-                <div class="mt-2">
-                  <span class="text-blue-600 font-bold">1.200.000đ</span>
-                  <span class="text-gray-400 line-through ml-2"
-                    >1.500.000đ</span
-                  >
-                </div>
-                <button
-                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                  Xem chi tiết
-                </button>
-              </div>
+              <button
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
+              </button>
             </div>
           </div>
-        </section>
-        <section class="py-10 bg-gray-100">
+        </div>
+      </section>
+      <!-- Sản Phẩm -->
+      <section class="py-10 bg-gray-100 flex flex-col gap-10 px-2">
+        <div
+          class="flex flex-col gap-6 items-center justify-center text-center sm:px-5">
+          <h1 class="font-semibold text-3xl sm:text-5xl">Our Product</h1>
+          <p>
+            Nội thất đẹp sẽ làm căn phòng của bản trở nên đẹp đẽ và sang trọng .
+            Ai nhìn vào cũng thấy đẹp
+          </p>
+          <a href="/product.html">
+            <button class="border-2 px-4 py-1 sm:px-8 sm:py-3 border-gray-500">
+              Toàn Bộ Shop
+            </button></a
+          >
+        </div>
+        <div
+          class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
           <div
-            class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-            <img
-              src="https://tse2.mm.bing.net/th?id=OIP.mKFkMTNV58JTe1vbb3-u3wHaHZ&pid=Api&P=0&h=220"
-              class="rounded-lg object-cover w-full h-40" />
-            <img
-              src="https://cf.shopee.vn/file/2b29d3b2e3d95a81d8a61acf274f8af6"
-              class="rounded-lg object-cover w-full h-40" />
-            <img
-              src="https://file.hstatic.net/1000379507/file/giay-leo-nui-5_4a274a961c9444da9d086d3b0041989f_grande.jpg"
-              class="rounded-lg object-cover w-full h-40" />
-            <img
-              src="https://foot.vn/wp-content/uploads/2020/09/giay-tap-gym-nu-2.jpg"
-              class="rounded-lg object-cover w-full h-40" />
-            <img
-              src="https://tyhisneaker.com/wp-content/uploads/2021/03/giay-adidas-prophere-co-gia-bao-nhieu-va-nhung-cach-phoi-do-thoi-trang.png"
-              class="rounded-lg object-cover w-full h-40" />
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img2.png" class="object-cover" alt="" />
+            </div>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
+              </div>
+              <button
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
+              </button>
+            </div>
           </div>
-        </section>
-        <section class="relative">
-          <img
-            src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/13e36e124462013.61044211481a0.jpg"
-            class="w-full object-cover h-[400px]"
-            alt="" />
           <div
-            class="absolute inset-0 bg-black/40 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-bold uppercase">
-              Chất lượng làm nên thương hiệu
-            </h2>
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img4.png" class="object-cover" alt="" />
+            </div>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
+              </div>
+              <button
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
+              </button>
+            </div>
           </div>
-        </section>
-        </main>
-        <footer class="bg-gray-900 text-white text-center py-6 mt-10">
-        </footer>
-      </body>
-    </html>
+          <div
+            class="bg-white h-auto shadow-md rounded-xl overflow-hidden hover:shadow-lg">
+            <div class="overflow-hidden">
+              <img src="/img/img3.png" class="object-cover" alt="" />
+            </div>
+            <div class="text-center py-5">
+              <h6 class="font-semibold text-lg">Bàn Ghế</h6>
+              <div class="mt-2">
+                <span class="font-semibold">1.200.000đ</span>
+                <span class="text-gray-400 line-through ml-2">1.500.000đ</span>
+              </div>
+              <button
+                class="mt-4 font-bold px-4 py-2 bg-[#F9F1E7] text-black rounded-lg hover:bg-[#B88E2F] hover:text-white">
+                Xem chi tiết
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="border-t px-2 border-gray-300 max-w-6xl mx-auto py-6 mt-10">
+      <div class="flex flex-col sm:flex-row gap-4 sm:justify-between">
+        <div class="flex flex-col gap-8">
+          <h1 class="font-semibold text-2xl">Sign up for out newsleter</h1>
+          <form
+            class="rounded-xl flex justify-between overflow-hidden border border-gray-300"
+            action="">
+            <input
+              class="py-4 pl-4 w-48 outline-none"
+              placeholder="Email address"
+              type="text" />
+            <button class="font-bold">Sign Up</button>
+          </form>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-8 sm:gap-28">
+          <div class="flex flex-col gap-4">
+            <p class="font-semibold text-2xl">Danh Mục</p>
+            <p>Bàn</p>
+            <p>Ghế</p>
+            <p>Sofa</p>
+            <p>Rèm</p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="font-semibold text-2xl">Liên hệ</p>
+            <p>Toàn Bán Rau</p>
+            <p>Danh Mục</p>
+            <p>Danh Mục</p>
+            <p>Danh Mục</p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <p class="font-semibold text-2xl">Giới Thiệu</p>
+            <p>Về chúng tôi</p>
+            <p>Danh Mục</p>
+            <p>Danh Mục</p>
+            <p>Danh Mục</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
