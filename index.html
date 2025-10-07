@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ - Adidas Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+        <header class="w-full shadow-md sticky top-0 bg-white z-50">
+          <div
+            class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex-shrink-0">
+              <a href="/">
+                <img
+                  src=""
+                  alt=""
+                  class="w-28" />
+              </a>
+            </div>
+            <nav class="hidden lg:flex space-x-8 font-medium text-gray-700">
+              <a href="#" class="hover:text-blue-600 transition">Trang chủ</a>
+              <div class="relative group">
+                <button
+                  class="flex items-center hover:text-blue-600 transition focus:outline-none">
+                  Sản phẩm
+                  <svg
+                    class="w-4 h-4 ml-1 transition-transform group-hover:rotate-180"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+              <a href="#" class="hover:text-blue-600 transition">Giới thiệu</a>
+              <a href="#" class="hover:text-blue-600 transition">Liên hệ</a>
+            </nav>
+            <div class="flex items-center space-x-6">
+              <form
+                class="hidden lg:flex border rounded-full overflow-hidden focus-within:ring-2 focus-within:ring-blue-500">
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  class="px-4 py-2 w-40 outline-none" />
+                <button class="px-3 bg-blue-500 text-white">
+                  <svg
+                    class="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-4.35-4.35M17 10a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                  </svg>
+                </button>
+              </form>
+              <button
+                class="p-2 hover:bg-gray-100 rounded-full transition">
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-1.293 2.293A1 1 0 007 17h10m0 0a1 1 0 100 2 1 1 0 000-2z" />
+                </svg>
+              </button>
+              <button
+                id="menu-btn"
+                class="lg:hidden p-2 hover:bg-gray-100 rounded-md transition">
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </header>
+        <section class="relative w-full h-[500px] overflow-hidden">
+          <div class="absolute inset-0 flex transition-all duration-700">
+            <img
+              src="assets/img/banner/banner6.jpg"
+              alt=""
+              class="w-full object-cover" />
+          </div>
+          <div
+            class="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <h1 class="text-white text-4xl font-bold uppercase">
+              Khám phá phong cách adidas
+            </h1>
+          </div>
+        </section>
+        <section class="py-10 bg-white">
+          <div
+            class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+            <div class="flex flex-col items-center space-y-2">
+              <i class="pe-7s-plane text-5xl text-blue-500"></i>
+              <h6 class="font-semibold">Giao hàng</h6>
+              <p class="text-gray-600">Giao hàng nhanh chóng</p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <i class="pe-7s-help2 text-5xl text-blue-500"></i>
+              <h6 class="font-semibold">Hỗ trợ</h6>
+              <p class="text-gray-600">Hỗ trợ 24/7</p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <i class="pe-7s-back text-5xl text-blue-500"></i>
+              <h6 class="font-semibold">Hoàn tiền</h6>
+              <p class="text-gray-600">Hoàn tiền trong 30 ngày</p>
+            </div>
+            <div class="flex flex-col items-center space-y-2">
+              <i class="pe-7s-credit text-5xl text-blue-500"></i>
+              <h6 class="font-semibold">Thanh toán</h6>
+              <p class="text-gray-600">Bảo mật thanh toán</p>
+            </div>
+          </div>
+        </section>
+        <section class="py-12 bg-white">
+          <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold uppercase">Các sản phẩm hot</h2>
+          </div>
+          <div
+            class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div
+              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+              <img
+                class="w-full h-48 object-cover"
+                alt="" />
+              <div class="p-4 text-center">
+                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
+                <div class="mt-2">
+                  <span class="text-blue-600 font-bold">1.200.000đ</span>
+                  <span class="text-gray-400 line-through ml-2"
+                    >1.500.000đ</span
+                  >
+                </div>
+                <button
+                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                  Xem chi tiết
+                </button>
+              </div>
+            </div>
+               <div
+              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+              <img
+                class="w-full h-48 object-cover"
+                alt="" />
+              <div class="p-4 text-center">
+                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
+                <div class="mt-2">
+                  <span class="text-blue-600 font-bold">1.200.000đ</span>
+                  <span class="text-gray-400 line-through ml-2"
+                    >1.500.000đ</span
+                  >
+                </div>
+                <button
+                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                  Xem chi tiết
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+              <img
+                class="w-full h-48 object-cover"
+                alt="" />
+              <div class="p-4 text-center">
+                <h6 class="font-semibold text-lg">Adidas Prophere</h6>
+                <div class="mt-2">
+                  <span class="text-blue-600 font-bold">1.200.000đ</span>
+                  <span class="text-gray-400 line-through ml-2"
+                    >1.500.000đ</span
+                  >
+                </div>
+                <button
+                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                  Xem chi tiết
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+              <img
+                class="w-full h-48 object-cover"
+                alt="" />
+              <div class="p-4 text-center">
+                <h6 class="font-semibold text-lg">Adidas Forum Low</h6>
+                <div class="mt-2">
+                  <span class="text-blue-600 font-bold">1.200.000đ</span>
+                  <span class="text-gray-400 line-through ml-2"
+                    >1.500.000đ</span
+                  >
+                </div>
+                <button
+                  class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                  Xem chi tiết
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="py-10 bg-gray-100">
+          <div
+            class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            <img
+              src="https://tse2.mm.bing.net/th?id=OIP.mKFkMTNV58JTe1vbb3-u3wHaHZ&pid=Api&P=0&h=220"
+              class="rounded-lg object-cover w-full h-40" />
+            <img
+              src="https://cf.shopee.vn/file/2b29d3b2e3d95a81d8a61acf274f8af6"
+              class="rounded-lg object-cover w-full h-40" />
+            <img
+              src="https://file.hstatic.net/1000379507/file/giay-leo-nui-5_4a274a961c9444da9d086d3b0041989f_grande.jpg"
+              class="rounded-lg object-cover w-full h-40" />
+            <img
+              src="https://foot.vn/wp-content/uploads/2020/09/giay-tap-gym-nu-2.jpg"
+              class="rounded-lg object-cover w-full h-40" />
+            <img
+              src="https://tyhisneaker.com/wp-content/uploads/2021/03/giay-adidas-prophere-co-gia-bao-nhieu-va-nhung-cach-phoi-do-thoi-trang.png"
+              class="rounded-lg object-cover w-full h-40" />
+          </div>
+        </section>
+        <section class="relative">
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/13e36e124462013.61044211481a0.jpg"
+            class="w-full object-cover h-[400px]"
+            alt="" />
+          <div
+            class="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <h2 class="text-white text-3xl font-bold uppercase">
+              Chất lượng làm nên thương hiệu
+            </h2>
+          </div>
+        </section>
+        <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
