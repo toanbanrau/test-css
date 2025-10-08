@@ -9,33 +9,37 @@
   <body>
     <main class="mx-auto">
       <!-- navbar -->
-      <div class="bg-[#F9F1E7] h-24">
-        <p>Home</p>
+      <div class="bg-[#F9F1E7] h-24 flex items-center">
+        <ul class="flex gap-3 pl-24">
+          <li><a href="">Home ></a></li>
+          <li><a href="">Shop ></a></li>
+          <span>| Asgaard sofa</span>
+        </ul>
       </div>
       <!-- product -->
-      <div class="py-8 flex mx-auto max-w-6xl">
+      <div class="flex px-24 py-8 max-w-8xl">
         <div class="grid grid-cols-2 gap-28">
           <div class="flex gap-8">
             <div class="flex flex-col gap-8">
-              <div class="w-20 h-20 rounded-lg overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-lg">
                 <img
                   class="object-cover"
                   src="img/imgdetail/image.png"
                   alt="" />
               </div>
-              <div class="w-20 h-20 rounded-lg overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-lg">
                 <img
                   class="object-cover"
                   src="img/imgdetail/image.png"
                   alt="" />
               </div>
-              <div class="w-20 h-20 rounded-lg overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-lg">
                 <img
                   class="object-cover"
                   src="img/imgdetail/image.png"
                   alt="" />
               </div>
-              <div class="w-20 h-20 rounded-lg overflow-hidden">
+              <div class="w-20 h-20 overflow-hidden rounded-lg">
                 <img
                   class="object-cover"
                   src="img/imgdetail/image.png"
@@ -79,13 +83,179 @@
               <button
                 class="bg-[#B88E2F] w-[30px] h-[30px] text-white rounded-full"></button>
             </div>
-            <div>
-              <input type="number" />
-              <button>Add To Cart</button>
-              <button>Compare</button>
+            <div class="flex gap-3">
+              <div class="px-12 py-4 border border-gray-400 rounded-xl"></div>
+              <button
+                class="px-12 py-4 font-semibold border border-gray-400 rounded-xl">
+                Add To Cart
+              </button>
+              <button
+                class="px-12 py-4 font-semibold border border-gray-400 rounded-xl">
+                Compare
+              </button>
             </div>
-            <div></div>
+            <div class="my-10 border-t border-gray-300">
+              <div class="flex gap-4 pt-12">
+                <div class="flex flex-col">
+                  <p>Sku</p>
+                  <p>Category</p>
+                  <p>Tags</p>
+                  <p>Share</p>
+                </div>
+                <div class="flex flex-col">
+                  <p>: SS001</p>
+                  <p>: Sofas</p>
+                  <p>: Sofa, Chair</p>
+                  <p>: Facebook, Instagram</p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <hr />
+      <div class="py-12">
+        <div class="flex items-center justify-center gap-14">
+          <h1 class="text-2xl font-medium">Review</h1>
+          <h1 class="text-2xl font-medium">Addtional Informaiton</h1>
+          <h1 class="text-2xl font-medium">Description</h1>
+        </div>
+        <div class="flex flex-col gap-8 px-40 py-9">
+          <p class="text-[#9F9F9F] text-base">
+            Embodying the raw, wayward spirit of rock roll, the Kilburn portable
+            active stereo speaker takes the unmistakable look and sound of
+            Marshall, unplugs the chords, and takes the show on the road.
+          </p>
+          <p class="text-[#9F9F9F] text-base">
+            Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+            vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero
+            with a well-balanced audio which boasts a clear midrange and
+            extended highs for a sound that is both articulate and pronounced.
+            The analogue knobs allow you to fine tune the controls to your
+            personal preferences while the guitar-influenced leather strap
+            enables easy and stylish travel.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 px-24 max-w-8xl gap-7">
+          <div class="rounded-xl">
+            <img class="w-full h-full" src="/img/imgdetail/image2.png" alt="" />
+          </div>
+          <div class="rounded-xl">
+            <img class="w-full h-full" src="/img/imgdetail/image3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-center justify-center gap-8 px-20 py-12 border-t border-b border-gray-300">
+        <div><h1 class="text-4xl">Related Products</h1></div>
+        <div class="grid grid-cols-4 gap-20">
+          <div class="relative bg-[#F4F5F7] group">
+            <div class="overflow-hidden">
+              <img
+                class="object-cover w-full h-full"
+                src="/img/img4.png"
+                alt="" />
+            </div>
+            <div class="flex flex-col gap-2 px-4 py-3">
+              <p class="text-3xl font-semibold">Syltherine</p>
+              <p class="text-base font-medium text-[#B0B0B0]">
+                Stylish cafe chair
+              </p>
+              <div class="flex items-center gap-4">
+                <span class="text-xl font-semibold">2.500.000đ</span
+                ><span class="text-base text-[#B0B0B0] line-through"
+                  >3.500.000đ</span
+                >
+              </div>
+            </div>
+            <span
+              class="absolute flex items-center justify-center w-12 h-12 text-center text-white bg-red-500 rounded-full top-4 right-4"
+              >30%</span
+            >
+            <div
+              class="absolute inset-0 flex items-center justify-center w-full h-full transition-opacity duration-300 opacity-0 group-hover:opacity-100 bg-black/40">
+              <button class="px-8 py-3 bg-white">Add To Cart</button>
+            </div>
+          </div>
+          <div class="relative bg-[#F4F5F7]">
+            <div class="overflow-hidden">
+              <img
+                class="object-cover w-full h-full"
+                src="/img/img4.png"
+                alt="" />
+            </div>
+            <div class="flex flex-col gap-2 px-4 py-3">
+              <p class="text-3xl font-semibold">Syltherine</p>
+              <p class="text-base font-medium text-[#B0B0B0]">
+                Stylish cafe chair
+              </p>
+              <div class="flex items-center gap-4">
+                <span class="text-xl font-semibold">2.500.000đ</span
+                ><span class="text-base text-[#B0B0B0] line-through"
+                  >3.500.000đ</span
+                >
+              </div>
+            </div>
+            <span
+              class="absolute flex items-center justify-center w-12 h-12 text-center text-white bg-red-500 rounded-full top-4 right-4"
+              >30%</span
+            >
+          </div>
+          <div class="relative bg-[#F4F5F7]">
+            <div class="overflow-hidden">
+              <img
+                class="object-cover w-full h-full"
+                src="/img/img4.png"
+                alt="" />
+            </div>
+            <div class="flex flex-col gap-2 px-4 py-3">
+              <p class="text-3xl font-semibold">Syltherine</p>
+              <p class="text-base font-medium text-[#B0B0B0]">
+                Stylish cafe chair
+              </p>
+              <div class="flex items-center gap-4">
+                <span class="text-xl font-semibold">2.500.000đ</span
+                ><span class="text-base text-[#B0B0B0] line-through"
+                  >3.500.000đ</span
+                >
+              </div>
+            </div>
+            <span
+              class="absolute flex items-center justify-center w-12 h-12 text-center text-white bg-red-500 rounded-full top-4 right-4"
+              >30%</span
+            >
+          </div>
+          <div class="relative bg-[#F4F5F7]">
+            <div class="overflow-hidden">
+              <img
+                class="object-cover w-full h-full"
+                src="/img/img4.png"
+                alt="" />
+            </div>
+            <div class="flex flex-col gap-2 px-4 py-3">
+              <p class="text-3xl font-semibold">Syltherine</p>
+              <p class="text-base font-medium text-[#B0B0B0]">
+                Stylish cafe chair
+              </p>
+              <div class="flex items-center gap-4">
+                <span class="text-xl font-semibold">2.500.000đ</span
+                ><span class="text-base text-[#B0B0B0] line-through"
+                  >3.500.000đ</span
+                >
+              </div>
+            </div>
+            <span
+              class="absolute flex items-center justify-center w-12 h-12 text-center text-white bg-red-500 rounded-full top-4 right-4"
+              >30%</span
+            >
+          </div>
+        </div>
+        <div>
+          <button
+            class="px-20 py-4 border border-[#B88E2F] text-[#B88E2F] font-bold">
+            Show More
+          </button>
         </div>
       </div>
     </main>
